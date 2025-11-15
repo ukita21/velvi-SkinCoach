@@ -24,6 +24,18 @@ export type ProductCategory =
   | 'mask' 
   | 'eye_cream';
 
+export interface QuizData {
+  experience: string;
+  skinGoals: string[];
+  skinType: string;
+  skinConcerns: string[];
+  comfortLevel: string;
+  lifestyleHabits: string[];
+  productPreferences: string[];
+  budget: string;
+  sensitivities: string[];
+}
+
 export interface User {
   id: string;
   email: string;
